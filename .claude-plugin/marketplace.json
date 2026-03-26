@@ -1,0 +1,14 @@
+{
+  "name": "co-writer-system",
+  "owner": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  },
+  "plugins": [
+    {
+      "name": "setup",
+      "source": "./plugins/setup-plugin",
+      "description": "Set up your complete Co-Writer System — build your CLAUDE.md and workspace folder structure"
+    }
+  ]
+}
