@@ -18,9 +18,8 @@ Map what you find to these expected section categories (the user may have named 
 | Expected Section | What it covers |
 |-----------------|----------------|
 | User Profile | Name, role, background, timezone, working style |
-| Business Profile | Business name, products, positioning, revenue, online presence |
+| Business Profile | Business name, products, positioning, revenue, online presence, content channels |
 | Ideal Client Profile | Who they serve, problems, aspirations, objections, language |
-| Content Strategy | What they produce, editorial angle, in/out of scope |
 | Tools & Infrastructure | Platforms and tools they use |
 | Voice | Pointer to voice skill or writing style notes |
 | Workspace Structure | Folder layout documentation |
@@ -66,7 +65,6 @@ Show as a simple table:
 | User Profile | Good | — |
 | Business Profile | Outdated | Product pricing has changed |
 | ICP | Thin | Missing "How They Talk About It" |
-| Content Strategy | Missing | You produce content but have no strategy section |
 | Tools | Good | — |
 | Voice | Missing | No writing style documented |
 | Workspace Structure | Outdated | 2 folders on disk not documented |

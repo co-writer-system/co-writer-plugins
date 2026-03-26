@@ -236,26 +236,6 @@ After all sections are complete and the workspace structure is approved, generat
 
 ---
 
-## Content Strategy
-
-### What You Produce
-
-[List of content channels and types]
-
-### Editorial Angle
-
-[Their positioning/perspective — derived from their business positioning and content answers]
-
-### In Scope
-
-[What Claude should create content about]
-
-### Out of Scope
-
-[What Claude should NOT cover — if they didn't specify, omit this section]
-
----
-
 ## Tools & Infrastructure
 
 | Tool | Purpose |
@@ -331,4 +311,4 @@ As your business evolves, update your CLAUDE.md. Run `/setup:update` anytime to 
 - Save everything at the end, not incrementally (the CLAUDE.md is one file)
 - **Create folders only after approval** — show the tree, get confirmation, then mkdir
 - Keep the tone conversational and helpful — these are professionals setting up a tool, not filling out a form
-- **Content strategy is derived**, not a separate interview — pull it from what they said about their business and content channels
+- **No separate content strategy section** — content channel info from the Business Profile feeds into the workspace folder structure, not its own CLAUDE.md section
