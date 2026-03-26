@@ -9,6 +9,11 @@
       "name": "setup",
       "source": "./plugins/setup-plugin",
       "description": "Set up your complete Co-Writer System — build your CLAUDE.md and workspace folder structure"
+    },
+    {
+      "name": "voice",
+      "source": "./plugins/voice-plugin",
+      "description": "Build, audit, and maintain voice profiles — capture authentic writing voice from evidence, not interviews"
     }
   ]
 }
