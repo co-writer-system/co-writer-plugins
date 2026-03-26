@@ -14,6 +14,46 @@
       "name": "voice",
       "source": "./plugins/voice-plugin",
       "description": "Build, audit, and maintain voice profiles — capture authentic writing voice from evidence, not interviews"
+    },
+    {
+      "name": "youtube",
+      "source": "./plugins/youtube-plugin",
+      "description": "YouTube content creation — scripts, titles, and SEO-optimized descriptions"
+    },
+    {
+      "name": "newsletter",
+      "source": "./plugins/newsletter-plugin",
+      "description": "Newsletter content — thought leadership, how-to guides, story lessons, case studies, launch announcements, welcome sequences"
+    },
+    {
+      "name": "social",
+      "source": "./plugins/social-plugin",
+      "description": "Social media content — LinkedIn posts and Substack notes"
+    },
+    {
+      "name": "blog",
+      "source": "./plugins/blog-plugin",
+      "description": "Blog content — long-form articles, how-to tutorials, and SEO optimization"
+    },
+    {
+      "name": "email",
+      "source": "./plugins/email-plugin",
+      "description": "Email sequences — sales, launch campaigns, and nurture sequences"
+    },
+    {
+      "name": "landing-page",
+      "source": "./plugins/landing-page-plugin",
+      "description": "Landing page copy — sales pages, product pages, and opt-in pages"
+    },
+    {
+      "name": "podcast",
+      "source": "./plugins/podcast-plugin",
+      "description": "Podcast content — episode outlines, show notes, and platform-optimized descriptions"
+    },
+    {
+      "name": "course",
+      "source": "./plugins/course-plugin",
+      "description": "Course creation — lesson scripts, module outlines, and assignments"
     }
   ]
 }
