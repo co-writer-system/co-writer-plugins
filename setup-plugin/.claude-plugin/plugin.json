@@ -1,0 +1,9 @@
+{
+  "name": "setup",
+  "version": "1.0.0",
+  "description": "Set up your complete Co-Writer System — build your CLAUDE.md with user profile, business profile, ICP, and tools, then create your workspace folder structure.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}
