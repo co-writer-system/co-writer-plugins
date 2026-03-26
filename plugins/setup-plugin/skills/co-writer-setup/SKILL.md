@@ -14,12 +14,6 @@ This is a guided, conversational interview. Ask questions **one section at a tim
 
 ## Before You Start
 
-Read the following context files from the project folder if they exist:
-- CLAUDE.md
-- USER.md
-- BUSINESS.md
-- ICP.md
-
 Check if a CLAUDE.md already exists in the current directory:
 - If it exists, read it and ask: "You already have a CLAUDE.md. Want to rebuild it from scratch, or update specific sections? (If you just want to update, try `/setup:update` instead.)"
 - If updating, skip to the relevant section
