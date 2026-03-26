@@ -1,0 +1,9 @@
+{
+  "name": "course",
+  "version": "0.1.0",
+  "description": "Course and training content production — lesson scripts, module outlines, and assignments. Build structured learning experiences that teach through doing, not lecturing.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}
