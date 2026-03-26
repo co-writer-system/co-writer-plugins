@@ -1,0 +1,9 @@
+{
+  "name": "podcast",
+  "version": "0.1.0",
+  "description": "Podcast content production — episode outlines, show notes, and platform-optimized descriptions. Conversational episode structures, companion notes with timestamps, and SEO-driven descriptions for Apple Podcasts and Spotify.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}
