@@ -15,7 +15,7 @@ This is a guided, conversational interview. Ask questions **one section at a tim
 ## Before You Start
 
 Check if a CLAUDE.md already exists in the current directory:
-- If it exists, read it and ask: "You already have a CLAUDE.md. Want to rebuild it from scratch, or update specific sections? (If you just want to update, try `/setup:update` instead.)"
+- If it exists, read it and ask: "You already have a CLAUDE.md. Want to rebuild it from scratch, or update specific sections? (If you just want to update, try `/setup:co-writer-audit` instead.)"
 - If updating, skip to the relevant section
 - If starting fresh, proceed with the full interview
 
@@ -431,7 +431,7 @@ Before any writing task, check for an installed voice profile skill and invoke i
 
 ---
 
-*This file evolves. Update it as your system grows — new products, new platforms, new audience insights. Run `/setup:update` anytime to audit and refresh.*
+*This file evolves. Update it as your system grows — new products, new platforms, new audience insights. Run `/setup:co-writer-audit` anytime to audit and refresh.*
 ```
 
 **Write the CLAUDE.md file** to the current working directory.
@@ -468,7 +468,7 @@ Head to the Co-Writer System marketplace for skills covering newsletters, social
 Even without a voice profile, you can start using skills right away. Your CLAUDE.md ensures everything is on-brand and audience-aware.
 
 ### Keep it updated
-As your business evolves, update your CLAUDE.md. Run `/setup:update` anytime to audit and refresh, or just edit the file directly.
+As your business evolves, update your CLAUDE.md. Run `/setup:co-writer-audit` anytime to audit and refresh, or just edit the file directly.
 ```
 
 ---
