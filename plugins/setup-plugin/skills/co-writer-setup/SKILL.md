@@ -119,13 +119,43 @@ What tools and platforms do you use? I'll document these so your system knows wh
 Think about:
 - **Content platforms** — Substack, WordPress, Medium, YouTube, podcast host?
 - **Social platforms** — Twitter/X, LinkedIn, Instagram, TikTok?
-- **Business tools** — Stripe, Gumroad, ConvertKit/Kit, Mailchimp?
-- **Other** — Notion, Airtable, Google Workspace, anything else core to your operation?
+- **Email marketing** — Kit (ConvertKit), Mailchimp, Beehiiv?
+- **Business tools** — Stripe, Gumroad, Airtable, Notion?
+- **Other** — Google Workspace, Zapier, anything else core to your operation?
 
 Just list what you actually use. No need to be exhaustive.
 ```
 
-After receiving answers, confirm the summary.
+After receiving their tool list, **present the available connectors.** Connectors let Claude read and write to tools directly — not just know about them.
+
+Show them this:
+
+```
+Nice — now let's talk about connectors. Connectors let Claude actually connect to your tools — pull analytics, manage subscribers, read data — instead of just knowing they exist.
+
+Here's what's available through the Co-Writer System platform:
+
+| Connector | What it does |
+|-----------|-------------|
+| YouTube | Channel stats, video search, comments, playlist items |
+| Substack | Post analytics, email stats, subscriber growth, revenue |
+| Kit (ConvertKit) | Broadcasts, sequences, subscribers, tags, email stats |
+| Zulip | Messaging, channels, topics |
+| Perplexity | Web search, deep research, citation-backed answers |
+
+You can set these up on the Connectors page at app.alexmcfarland.ai/connectors.
+
+Claude Cowork also has its own official connectors — things like Notion, Google Drive, Slack, Airtable, and others. I'd recommend browsing those too (Cowork → Connectors) for anything else you use.
+
+Which of these do you want to set up? I'll note them in your CLAUDE.md so everything's ready to connect.
+```
+
+Based on what they choose:
+- For platform connectors they want: add them to the "Connected Tools" section of the CLAUDE.md with placeholder IDs and a note to set up on the Connectors page
+- For Cowork official connectors they want: add them to "Connected Tools" with a note to install from Cowork's connector directory
+- For tools with no connector: add to "Other Tools" table (see reference file)
+
+Confirm the summary including which connectors they'll set up.
 
 ---
 
@@ -168,7 +198,9 @@ After all sections are complete and the workspace structure is approved, generat
 
 **Quality gate:** Before writing, review what you collected. If the User Profile or Business Profile sections are mostly empty, say: "Your system file will be pretty lean with what we have. The most important sections to fill in are [User Profile / Business Profile]. Want to take another pass at those, or save what we have and come back to it later?"
 
-**Use this template structure. Adapt it to their actual content — skip sections that don't apply, add sections that do. The template is a guide, not a rigid form.**
+**Read the reference file at `references/example-claude-md.md` first.** It's a scrubbed version of a real production CLAUDE.md. Use it as a structural and tonal reference for what "good" looks like — especially the directive opening, the tools section (connected vs non-connected), and the voice pointer.
+
+**Adapt the structure to their actual content — skip sections that don't apply, add sections that do. The reference is a guide, not a rigid form.**
 
 **IMPORTANT: The CLAUDE.md must open in directive voice — it tells Claude who it is and what it does. It does NOT describe itself ("This is a guide for Claude..."). It speaks directly TO Claude.**
 
@@ -242,11 +274,19 @@ You know their business, their audience, and their voice. You don't need to be t
 
 ## Tools & Infrastructure
 
+### Connected Tools
+
+These tools are connected to Claude via connectors — Claude can read and write to them directly.
+
+**[Tool name]** — [What it does for the user]
+- **[Config field]:** [placeholder]
+- **Connector:** [Co-Writer platform / Cowork official]
+
+### Other Tools
+
 | Tool | Purpose |
 |------|---------|
 | [Tool] | [What they use it for] |
-
-[Any additional notes about integrations or workflows]
 
 ---
 
