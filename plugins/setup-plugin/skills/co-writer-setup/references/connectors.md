@@ -107,6 +107,21 @@ That's it. Once connected, Claude can read and write to that service directly.
   - **Connector:** Co-Writer platform (app.alexmcfarland.ai/connectors)
   ```
 
+### Firecrawl
+
+- **What it does:** Scrape web pages to clean markdown, crawl entire sites, discover URLs, extract structured data
+- **API key type:** Firecrawl API key
+- **Setup steps:**
+  1. Go to [Firecrawl Dashboard](https://firecrawl.dev/app/api-keys)
+  2. Create an account and generate an API key (starts with `fc-`)
+  3. Paste it on the Connectors page
+- **How the setup skill should use it:** If the user shares their website, blog, portfolio, or any URL during the interview — scrape it immediately. Use the content to auto-fill voice patterns, topics, audience, brand language, and expertise areas instead of asking the user to describe them manually. This dramatically speeds up onboarding.
+- **What to add to CLAUDE.md:**
+  ```
+  **Firecrawl** — Web scraping and site crawling
+  - **Connector:** Co-Writer platform (app.alexmcfarland.ai/connectors)
+  ```
+
 ---
 
 ## Cowork Official Connectors
