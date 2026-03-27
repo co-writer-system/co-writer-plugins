@@ -1,0 +1,10 @@
+{
+  "name": "co-writer-plugins",
+  "version": "1.0.0",
+  "description": "The Co-Writer System plugin marketplace — custom-built content production tools for Claude.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  },
+  "repository": "https://github.com/co-writer-system/co-writer-plugins"
+}
