@@ -170,10 +170,14 @@ After all sections are complete and the workspace structure is approved, generat
 
 **Use this template structure. Adapt it to their actual content — skip sections that don't apply, add sections that do. The template is a guide, not a rigid form.**
 
-```markdown
-# [Business Name or User Name] — Claude Instructions
+**IMPORTANT: The CLAUDE.md must open in directive voice — it tells Claude who it is and what it does. It does NOT describe itself ("This is a guide for Claude..."). It speaks directly TO Claude.**
 
-[One-line description of what this system does for them]
+```markdown
+# [Business Name or User Name] — Co-Writer
+
+You are [user's name]'s co-writer. [One sentence: what you help them do — e.g., "You handle content production, business copy, and audience-facing writing across all channels."]
+
+You know their business, their audience, and their voice. You don't need to be told the basics — they're below. Start executing.
 
 ---
 
@@ -248,7 +252,7 @@ After all sections are complete and the workspace structure is approved, generat
 
 ## Voice
 
-When producing content, invoke a voice skill if one is available. If no voice skill is installed, pick up the user's natural voice from their writing samples and the context in this file.
+Before any writing task, check for an installed voice profile skill and invoke it. If no voice skill is installed, match the user's natural voice from writing samples in the workspace. **Do not generate voice guidelines, word lists, or tone rules in this file — voice lives in the voice skill, not here.**
 
 ---
 
@@ -312,3 +316,5 @@ As your business evolves, update your CLAUDE.md. Run `/setup:update` anytime to 
 - **Create folders only after approval** — show the tree, get confirmation, then mkdir
 - Keep the tone conversational and helpful — these are professionals setting up a tool, not filling out a form
 - **No separate content strategy section** — content channel info from the Business Profile feeds into the workspace folder structure, not its own CLAUDE.md section
+- **No voice content in CLAUDE.md** — no word lists, no "use these words / avoid these words", no tone descriptions, no writing style rules. The Voice section is ONLY a pointer to the voice skill. Voice lives in the voice plugin, period.
+- **CLAUDE.md opens in directive voice** — it speaks TO Claude ("You are [name]'s co-writer. You handle X."), never ABOUT Claude ("This is a guide for Claude..." or "This file tells Claude...")
