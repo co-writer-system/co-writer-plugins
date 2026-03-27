@@ -126,34 +126,15 @@ Think about:
 Just list what you actually use. No need to be exhaustive.
 ```
 
-After receiving their tool list, **present the available connectors.** Connectors let Claude read and write to tools directly — not just know about them.
+After receiving their tool list, **present connectors.** Read `references/connectors.md` for the full list of available connectors, setup steps, and CLAUDE.md patterns for each one.
 
-Show them this:
+Present the Co-Writer platform connectors as a table, then mention Cowork's official connectors. Ask which ones they want to set up.
 
-```
-Nice — now let's talk about connectors. Connectors let Claude actually connect to your tools — pull analytics, manage subscribers, read data — instead of just knowing they exist.
-
-Here's what's available through the Co-Writer System platform:
-
-| Connector | What it does |
-|-----------|-------------|
-| YouTube | Channel stats, video search, comments, playlist items |
-| Substack | Post analytics, email stats, subscriber growth, revenue |
-| Kit (ConvertKit) | Broadcasts, sequences, subscribers, tags, email stats |
-| Zulip | Messaging, channels, topics |
-| Perplexity | Web search, deep research, citation-backed answers |
-
-You can set these up on the Connectors page at app.alexmcfarland.ai/connectors.
-
-Claude Cowork also has its own official connectors — things like Notion, Google Drive, Slack, Airtable, and others. I'd recommend browsing those too (Cowork → Connectors) for anything else you use.
-
-Which of these do you want to set up? I'll note them in your CLAUDE.md so everything's ready to connect.
-```
+If they want to set one up right now, walk them through it using the setup steps in the reference file. For tools that benefit from structure (like Airtable or Kit), offer to help them design their setup. If they'd rather do it later, add placeholder values to the CLAUDE.md and move on.
 
 Based on what they choose:
-- For platform connectors they want: add them to the "Connected Tools" section of the CLAUDE.md with placeholder IDs and a note to set up on the Connectors page
-- For Cowork official connectors they want: add them to "Connected Tools" with a note to install from Cowork's connector directory
-- For tools with no connector: add to "Other Tools" table (see reference file)
+- **Connected tools:** Add to "Connected Tools" section with config details and connector source (see reference file for the pattern per tool)
+- **Tools with no connector:** Add to "Other Tools" table
 
 Confirm the summary including which connectors they'll set up.
 
