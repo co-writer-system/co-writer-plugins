@@ -13,32 +13,32 @@
     {
       "name": "voice",
       "source": "./plugins/voice-plugin",
-      "description": "Build, audit, and maintain voice profiles — capture authentic writing voice from evidence, not interviews"
+      "description": "Build, audit, and maintain voice profiles — capture authentic writing voice from evidence"
     },
     {
       "name": "youtube",
       "source": "./plugins/youtube-plugin",
-      "description": "YouTube content creation — scripts, titles, and SEO-optimized descriptions"
+      "description": "YouTube content — scripts, titles, and SEO-optimized descriptions"
     },
     {
-      "name": "newsletter",
-      "source": "./plugins/newsletter-plugin",
-      "description": "Newsletter content — thought leadership, how-to guides, story lessons, case studies, launch announcements, welcome sequences"
+      "name": "substack",
+      "source": "./plugins/substack-plugin",
+      "description": "Substack newsletters and Notes — thought leadership, how-to guides, case studies, launch announcements"
     },
     {
-      "name": "social",
-      "source": "./plugins/social-plugin",
-      "description": "Social media content — LinkedIn posts and Substack notes"
+      "name": "linkedin",
+      "source": "./plugins/linkedin-plugin",
+      "description": "LinkedIn posts — professional content optimized for LinkedIn's format"
+    },
+    {
+      "name": "kit",
+      "source": "./plugins/kit-plugin",
+      "description": "Kit (ConvertKit) email sequences — sales campaigns, launch sequences, and nurture series"
     },
     {
       "name": "blog",
       "source": "./plugins/blog-plugin",
       "description": "Blog content — long-form articles, how-to tutorials, and SEO optimization"
-    },
-    {
-      "name": "email",
-      "source": "./plugins/email-plugin",
-      "description": "Email sequences — sales, launch campaigns, and nurture sequences"
     },
     {
       "name": "landing-page",

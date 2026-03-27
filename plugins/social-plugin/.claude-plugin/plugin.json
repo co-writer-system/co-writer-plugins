@@ -1,9 +1,0 @@
-{
-  "name": "social",
-  "version": "0.1.1",
-  "description": "Social content creation — LinkedIn posts and Substack Notes. Proven formats for each platform with voice-matched output.",
-  "author": {
-    "name": "Alex McFarland",
-    "url": "https://alexmcfarland.ai"
-  }
-}

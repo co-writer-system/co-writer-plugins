@@ -1,0 +1,9 @@
+{
+  "name": "substack",
+  "version": "0.1.0",
+  "description": "Substack newsletters and Notes — thought leadership, how-to guides, case studies, launch announcements, and Substack Notes.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}
