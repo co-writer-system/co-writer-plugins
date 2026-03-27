@@ -251,6 +251,14 @@ Walk them through using the setup steps in `references/connectors.md`. For each 
 
 ### Section 5: Workspace Folder Structure
 
+Before generating folders, explain the content philosophy:
+
+```
+One important principle: keep all your content as markdown files in your workspace. Newsletters, blog posts, scripts, guides — everything you write lives here as .md files.
+
+Connectors are for analytics and data (checking how a post performed, pulling subscriber stats). But the actual content stays in your workspace. That way you own it, you can search it, you can compile it into ebooks or repurpose it anytime — and it works with every skill in the marketplace.
+```
+
 No questions here — generated from their answers.
 
 **Generate the folder structure** using these defaults based on the content channels they mentioned in Q2.5:
