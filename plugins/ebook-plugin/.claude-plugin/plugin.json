@@ -1,0 +1,9 @@
+{
+  "name": "ebook",
+  "version": "0.1.0",
+  "description": "Create, compile, and publish ebooks from your workspace content — write from scratch, compile existing posts, build lead magnets, or discover ebook ideas hiding in your work.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}
