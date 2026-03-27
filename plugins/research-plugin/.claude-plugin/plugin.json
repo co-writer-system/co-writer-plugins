@@ -1,0 +1,9 @@
+{
+  "name": "research",
+  "version": "0.2.0",
+  "description": "Structured, citation-backed research — deep reports, competitive analysis, audience research, industry briefings, and more. Powered by Perplexity and Firecrawl connectors.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}
