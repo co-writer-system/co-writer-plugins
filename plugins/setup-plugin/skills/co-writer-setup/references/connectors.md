@@ -4,9 +4,22 @@ Reference file for the setup skill. Present these to the user during the Tools &
 
 ---
 
-## Co-Writer System Platform Connectors
+## How Platform Connectors Work
 
-These are set up on the Connectors page at **app.alexmcfarland.ai/connectors**. The user stores their API key there, then connects to Claude via the connector URL.
+All Co-Writer platform connectors follow the same setup flow:
+
+1. **Get the API key** for the service (steps below per connector)
+2. **Go to app.alexmcfarland.ai/connectors** — find the connector card
+3. **Enter the API key** (or credentials) and save
+4. **Copy the connector URL** from the card
+5. **In Cowork** → go to Connectors → Add custom connector → paste the URL
+6. **Sign in** when prompted — this verifies your platform access via OAuth
+
+That's it. Once connected, Claude can read and write to that service directly.
+
+---
+
+## Co-Writer System Platform Connectors
 
 ### YouTube
 

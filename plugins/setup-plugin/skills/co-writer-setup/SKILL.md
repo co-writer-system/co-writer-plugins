@@ -21,6 +21,8 @@ Check if a CLAUDE.md already exists in the current directory:
 
 Also check if there's an existing workspace folder structure. Note what exists so you don't overwrite their work.
 
+---
+
 ## The Interview
 
 ### Opening
@@ -32,14 +34,14 @@ I'll also set up your workspace — a set of folders to organize your content pi
 
 I'm going to walk you through four things:
 
-1. **You** — who you are and how you work
-2. **Your business** — what you do, what you sell, how you're positioned
-3. **Your ideal client/customer** — who you're creating content for
-4. **Your tools** — what platforms and tools you use
+1. **You** — who you are and what you do
+2. **Your business** — what you sell, how you're positioned, who you serve
+3. **Your ideal client/customer** — who your content is for
+4. **Your tools** — what platforms you use and how to connect them
 
 Then I'll set up your workspace folders based on what content you produce.
 
-This usually takes about 10-15 minutes. Ready?
+The more detail you give me, the better your system file will be — and the less you'll ever have to explain to Claude again. Ready?
 ```
 
 Wait for response before proceeding.
@@ -48,107 +50,210 @@ Wait for response before proceeding.
 
 ### Section 1: User Profile
 
-Ask:
+**Q1.1 — Q1.4** (ask together):
 ```
 First, tell me about you:
 
-1. **Your name**
-2. **What you do** (role, title, or how you'd describe yourself)
-3. **Your background** — what's your expertise? What have you done?
-4. **Your timezone**
-5. **How you like to work** — fast and iterative? Methodical? Anything about your working style that an AI assistant should know?
-
-Drop as much or as little as you want. If you have a website or bio you can paste, even better — I'll pull from it.
+1. What's your name?
+2. What's your role? (title, or how you'd describe what you do)
+3. What's your background and expertise?
+4. What timezone are you in?
 ```
 
-If they provide a URL, fetch it and extract what you can before asking follow-up questions. If they paste text content, extract from that.
+Accept partial answers. If they provide a URL or paste a bio, fetch/extract what you can before asking follow-ups.
 
-Accept partial answers. Mark genuine gaps as something to fill later — don't push for information they don't have.
+**Q1.5:**
+```
+What's your online presence? List any domains, websites, social media handles, newsletter URLs — anything you actively use.
+```
 
-After receiving answers, **confirm what you captured** in a brief summary before moving on. Don't write the file yet — we build it all at the end.
+→ If they give a website URL, fetch it and extract as much business context as you can for later sections.
+
+→ **Confirm summary** of what you captured. Then proceed to the context drop.
+
+---
+
+### Context Drop
+
+After confirming Section 1, present this:
+
+```
+Before we keep going — I'd recommend creating a folder called `context/` right here in this directory. Drop in everything you want your co-writer to know about you and your business:
+
+- Landing pages, sales pages
+- Bios, about pages
+- Articles or newsletters you've written
+- Pitch decks, client-facing docs
+- Product descriptions
+- Anything else that represents you and your work
+
+The more you give me, the better your CLAUDE.md will be. A detailed system file means Claude never asks you to explain yourself again. I'll read through everything and use it to pre-fill the rest of the interview — your business profile, your audience, your positioning. Then we just confirm and adjust instead of building from scratch.
+
+Take a minute to drop files in and tell me when you're ready, or say "skip" to keep going with questions.
+```
+
+→ **If they add files:** Create the `context/` folder if it doesn't exist. Read everything in it. Extract business info, product details, ICP signals, positioning, content examples, language patterns — anything relevant to Sections 2-4. Pre-fill as much as possible. When you get to each section, present what you found and ask them to confirm/adjust rather than asking from scratch.
+
+→ **If they skip:** Continue with the normal question flow for each section.
 
 ---
 
 ### Section 2: Business Profile
 
-Ask:
+*If context files gave you business info, present what you found first:* "From what you gave me, here's what I've got for your business. Confirm or correct anything."
+
+*If no context files, ask these questions:*
+
+**Q2.1:**
 ```
-Now your business:
-
-1. **What's your business?** (company name, what it does)
-2. **Products or services** — what do you sell? Pricing if you know it
-3. **Your positioning** — what makes you different? How do you describe what you do vs. competitors?
-4. **Your online presence** — website, social links
-5. **Revenue model** — how do you make money? (subscriptions, services, products, courses, etc.)
-6. **What content do you produce?** (newsletter, YouTube, blog posts, social media, podcast, courses, etc.)
-7. **What topics are in scope for your content?** What should Claude help you create?
-8. **Anything out of scope?** Topics or content types Claude should NOT create?
-
-Same as before — paste a website or about page if you have one. Partial answers are fine.
+What's your business? (Company name, what it does, one-liner description)
 ```
 
-After receiving answers, confirm the summary.
+**Q2.2:**
+```
+What do you sell? Walk me through your products or services.
+```
+
+→ **For each product/service they mention, ask:**
+- "What type is it?" (membership, course, digital product, service, SaaS, etc.)
+- "What's the pricing?"
+- "What does the buyer get?"
+
+**Q2.3:**
+```
+How do you make money overall? (Subscriptions, one-time purchases, retainers, ads, a mix?)
+```
+
+**Q2.4:**
+```
+What makes you different? How do you describe what you do vs. others in your space?
+```
+
+**Q2.5:**
+```
+Are you creating content for yourself, for clients, or both?
+```
+
+→ **Branch based on answer:**
+
+- **Self only:** "Got it — all your own brand. What content do you produce? (newsletter, YouTube, blog, social, podcast, courses, etc.)"
+
+- **Clients only (ghostwriting/agency):** "So you're writing for other people. Tell me about that — how many clients, what kind of content, what's the workflow? Do clients have their own voice profiles or do you define the voice?"
+  - Note: workspace will need a `clients/` folder with per-client subdirectories
+
+- **Both:** "Walk me through both sides. What do you produce for your own brand, and what do you do for clients?"
+  - Note: workspace needs both content channels AND `clients/` folder
+
+**Q2.6:**
+```
+What topics are in scope for your content? What should Claude help you create?
+```
+
+**Q2.7:**
+```
+Anything out of scope? Topics or content types Claude should NOT touch?
+```
+
+→ **Confirm summary** → move on
 
 ---
 
 ### Section 3: Ideal Client Profile
 
-Ask:
+*If context files gave you ICP signals (from landing pages, sales pages, etc.), present what you found first.*
+
+**Q3.1:**
 ```
-Who are you creating content for?
-
-1. **Who is your ideal client/customer?** (role, industry, experience level)
-2. **What problems do they face?** (the top 3-5 frustrations)
-3. **What do they want?** (desired outcomes, aspirations)
-4. **What's stopping them?** (fears, objections, barriers to buying)
-5. **How do they talk about their problems?** Think about the last few emails or DMs you got from someone asking for help — what words did they use?
-
-This section makes your content resonate. Even rough answers help a lot.
+Who's your ideal client or customer? (Role, industry, experience level)
 ```
 
-After receiving answers, confirm the summary.
+**Q3.2:**
+```
+What are their top 3-5 frustrations? The problems that make them look for someone like you.
+```
+
+**Q3.3:**
+```
+What do they actually want? The outcomes, the aspirations.
+```
+
+**Q3.4:**
+```
+What stops them from buying? Fears, objections, barriers.
+```
+
+**Q3.5:**
+```
+How do they talk about their problems? Think about actual words from DMs, emails, comments — the language they use.
+```
+
+→ If they don't know Q3.5, skip it. Omit from CLAUDE.md rather than leaving it blank.
+
+→ **Confirm summary** → move on
 
 ---
 
 ### Section 4: Tools & Infrastructure
 
-Ask:
+**Q4.1:**
 ```
-What tools and platforms do you use? I'll document these so your system knows what's available.
+What tools and platforms do you use day-to-day?
 
 Think about:
-- **Content platforms** — Substack, WordPress, Medium, YouTube, podcast host?
-- **Social platforms** — Twitter/X, LinkedIn, Instagram, TikTok?
-- **Email marketing** — Kit (ConvertKit), Mailchimp, Beehiiv?
-- **Business tools** — Stripe, Gumroad, Airtable, Notion?
-- **Other** — Google Workspace, Zapier, anything else core to your operation?
-
-Just list what you actually use. No need to be exhaustive.
+- Content platforms (Substack, WordPress, Medium, YouTube, podcast host)
+- Social platforms (Twitter/X, LinkedIn, Instagram, TikTok)
+- Email marketing (Kit/ConvertKit, Mailchimp, Beehiiv)
+- Business tools (Stripe, Gumroad, Airtable, Notion)
+- Anything else core to your operation
 ```
 
-After receiving their tool list, **present connectors.** Read `references/connectors.md` for the full list of available connectors, setup steps, and CLAUDE.md patterns for each one.
+→ After they answer, **present connectors.** Read `references/connectors.md` for the full list of available connectors, setup steps, and CLAUDE.md patterns.
 
-Present the Co-Writer platform connectors as a table, then mention Cowork's official connectors. Ask which ones they want to set up.
+**Q4.2:**
+```
+Now let's talk about connectors. These let Claude actually connect to your tools — pull analytics, manage data, read and write — instead of just knowing they exist.
 
-If they want to set one up right now, walk them through it using the setup steps in the reference file. For tools that benefit from structure (like Airtable or Kit), offer to help them design their setup. If they'd rather do it later, add placeholder values to the CLAUDE.md and move on.
+Here's what's available through the Co-Writer System platform:
 
-Based on what they choose:
-- **Connected tools:** Add to "Connected Tools" section with config details and connector source (see reference file for the pattern per tool)
-- **Tools with no connector:** Add to "Other Tools" table
+| Connector  | What it does                                      |
+|------------|---------------------------------------------------|
+| YouTube    | Channel stats, video search, comments, playlists  |
+| Substack   | Post analytics, email stats, subscriber growth    |
+| Kit        | Broadcasts, sequences, subscribers, tags          |
+| Zulip      | Messaging, channels, topics                       |
+| Perplexity | Web search, deep research, citations              |
 
-Confirm the summary including which connectors they'll set up.
+To set these up: go to app.alexmcfarland.ai/connectors, enter your API key for the service, then copy the connector URL. In Cowork, go to Connectors → Add custom connector → paste the URL. It'll prompt you to sign in through the platform to verify.
+
+Cowork also has its own official connectors — Notion, Airtable, Google Drive, Slack, and more. I'd recommend browsing those too: go to Cowork → Connectors and search for any tool you use.
+
+Which of these do you use and want to connect?
+```
+
+→ **Branch: For each connector they want to set up now:**
+
+Walk them through using the setup steps in `references/connectors.md`. For each one:
+
+1. Explain how to get the API key/credentials for that specific service
+2. Tell them to enter it on the Connectors page at app.alexmcfarland.ai/connectors
+3. Tell them to copy the connector URL from that page
+4. Tell them to go to Cowork → Connectors → Add custom connector → paste the URL
+5. They'll be prompted to sign in through the platform to verify access
+6. For tools that benefit from structure (Airtable, Kit), offer to help design their setup
+
+→ **If they'd rather set up later:** Add placeholder values to CLAUDE.md and move on.
+
+→ For **Cowork official connectors** (Airtable, Notion, etc.): tell them to install from Cowork → Connectors → search for the tool. Walk through any guided setup if they want it (e.g., Airtable table design).
+
+→ **Confirm full tools summary** (connected + non-connected) → move on
 
 ---
 
 ### Section 5: Workspace Folder Structure
 
-Now build their workspace based on everything they told you.
+No questions here — generated from their answers.
 
-```
-Alright, let's set up your workspace folders. Based on what you told me, here's what I'd create:
-```
-
-**Generate the folder structure** using these defaults based on the content channels they mentioned:
+**Generate the folder structure** using these defaults based on the content channels they mentioned in Q2.5:
 
 **Content channels** — create for each channel they mentioned:
 - **Newsletter/Substack/Blog:** `content/<channel>/published/` and `content/<channel>/pipeline/`
@@ -166,16 +271,36 @@ Alright, let's set up your workspace folders. Based on what you told me, here's 
 **Show the proposed structure as a tree** and ask:
 
 ```
+Based on everything you told me, here's your workspace structure:
+
+[tree]
+
 Want to adjust anything? Add folders, rename things, remove what doesn't fit?
 ```
 
-Wait for their response. Adjust as needed. Only create the folders after they approve.
+Wait for approval. Adjust as needed. Only create the folders after they approve.
+
+---
+
+### Context Folder Cleanup
+
+**Only if a `context/` folder exists with files in it.** After workspace approval, before building the CLAUDE.md:
+
+```
+One last thing — you dropped files into context/ earlier. Now that your workspace is set up, would you like me to:
+
+1. **Organize them** — move them into the right workspace folders (articles into content/, assets into assets/, etc.)
+2. **Delete them** — we've pulled what we need into your CLAUDE.md
+3. **Leave them** — keep context/ as-is for future reference
+```
+
+→ Handle whichever they pick, then proceed to build.
 
 ---
 
 ## Building the CLAUDE.md
 
-After all sections are complete and the workspace structure is approved, generate the CLAUDE.md file.
+After all sections are complete, the workspace is approved, and context folder is handled — generate the CLAUDE.md file.
 
 **Quality gate:** Before writing, review what you collected. If the User Profile or Business Profile sections are mostly empty, say: "Your system file will be pretty lean with what we have. The most important sections to fill in are [User Profile / Business Profile]. Want to take another pass at those, or save what we have and come back to it later?"
 
@@ -183,7 +308,7 @@ After all sections are complete and the workspace structure is approved, generat
 
 **Adapt the structure to their actual content — skip sections that don't apply, add sections that do. The reference is a guide, not a rigid form.**
 
-**IMPORTANT: The CLAUDE.md must open in directive voice — it tells Claude who it is and what it does. It does NOT describe itself ("This is a guide for Claude..."). It speaks directly TO Claude.**
+### CLAUDE.md Template
 
 ```markdown
 # [Business Name or User Name] — Co-Writer
@@ -200,7 +325,18 @@ You know their business, their audience, and their voice. You don't need to be t
 - **Role:** [role/title]
 - **Timezone:** [timezone]
 - **Background:** [background summary]
-- **Working Style:** [how they work]
+
+### Expertise
+
+- [area 1]
+- [area 2]
+
+### Online Presence
+
+| Platform | URL |
+|----------|-----|
+| Website | [url] |
+| [Platform] | [url] |
 
 ---
 
@@ -212,18 +348,30 @@ You know their business, their audience, and their voice. You don't need to be t
 
 ### Products & Services
 
-[List with descriptions and pricing if available]
+**[Product 1]** — [description]
+- **Type:** [type]
+- **Pricing:** [price]
+- **What buyers get:** [list]
 
 ### Revenue Model
 
 [How they make money]
 
-### Online Presence
+### Content Model
 
-| Platform | URL |
-|----------|-----|
-| Website | [url] |
-| [Platform] | [url] |
+[Whether they create for themselves, clients, or both — and what that looks like]
+
+### Content Channels
+
+[List of what they produce — newsletter, YouTube, social, etc.]
+
+### In Scope
+
+[Topics Claude should help with]
+
+### Out of Scope
+
+[Topics Claude should NOT touch]
 
 ---
 
@@ -249,7 +397,7 @@ You know their business, their audience, and their voice. You don't need to be t
 
 ### How They Talk About It
 
-[Key phrases and language they use — if they didn't provide this, omit the subsection rather than leaving it empty]
+[Key phrases and language — omit this subsection entirely if they didn't provide it]
 
 ---
 
@@ -260,7 +408,7 @@ You know their business, their audience, and their voice. You don't need to be t
 These tools are connected to Claude via connectors — Claude can read and write to them directly.
 
 **[Tool name]** — [What it does for the user]
-- **[Config field]:** [placeholder]
+- **[Config field]:** [value or placeholder]
 - **Connector:** [Co-Writer platform / Cowork official]
 
 ### Other Tools
@@ -329,7 +477,8 @@ As your business evolves, update your CLAUDE.md. Run `/setup:update` anytime to 
 
 - Ask questions **one section at a time** — never dump all questions at once
 - **Accept partial answers** — mark gaps with [TBD] if needed, but don't push
-- **Extract from URLs and documents** — if they paste a website URL, fetch it and pull content. If they paste text, extract from that. Don't re-ask what they already told you.
+- **Extract from URLs and documents** — if they paste a website URL, fetch it and pull content. If they paste text, extract from that. If they dropped files in `context/`, read all of them. Don't re-ask what they already told you.
+- **Pre-fill from context** — if `context/` has files, read them all and use them to pre-fill sections. Present what you found and let the user confirm/adjust.
 - **Confirm each section** before moving on — brief summary, not a full readback
 - **Adapt the template** — skip sections that don't apply, add sections that do
 - **Quality gate** — if critical sections (User Profile, Business Profile) are mostly empty, prompt them before writing
@@ -339,3 +488,4 @@ As your business evolves, update your CLAUDE.md. Run `/setup:update` anytime to 
 - **No separate content strategy section** — content channel info from the Business Profile feeds into the workspace folder structure, not its own CLAUDE.md section
 - **No voice content in CLAUDE.md** — no word lists, no "use these words / avoid these words", no tone descriptions, no writing style rules. The Voice section is ONLY a pointer to the voice skill. Voice lives in the voice plugin, period.
 - **CLAUDE.md opens in directive voice** — it speaks TO Claude ("You are [name]'s co-writer. You handle X."), never ABOUT Claude ("This is a guide for Claude..." or "This file tells Claude...")
+- **Connectors get full setup guidance** — don't just list them. Walk the user through getting the API key, entering it on the platform Connectors page, copying the URL, and adding it in Cowork. Read `references/connectors.md` for per-tool steps.
