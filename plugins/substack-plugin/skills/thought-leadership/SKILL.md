@@ -54,24 +54,31 @@ Every H2 header should teach something even if the reader never reads the sectio
 
 Headers are mini-promises. Each one should make the reader think "I need to read this section."
 
-## The "10 Magical Ways" — Content Organization
+## What This Skill Is (and Isn't)
 
-Choose the organizing structure that fits the topic best:
+This skill writes **opinion pieces with a strong position**. You have a take. You argue for it. You back it with experience and evidence. The reader walks away seeing something differently.
 
-| Structure | Best For |
-|-----------|----------|
-| **Tips** | Tactical advice the reader can use today |
-| **Stats** | Data-driven arguments that shift perspective |
-| **Steps** | Sequential processes (use how-to-guide skill instead if > 5 steps) |
-| **Lessons** | Experience-based insights from real situations |
-| **Benefits** | Selling an approach, framework, or mindset shift |
-| **Reasons** | Persuasive arguments for or against something |
-| **Mistakes** | What to avoid — high engagement, readers love knowing what NOT to do |
-| **Examples** | Concrete illustrations that make abstract ideas real |
-| **Questions** | Reframe the topic through questions the reader should be asking |
-| **Personal Stories** | Narrative-driven sections (use story-lesson skill for full narrative pieces) |
+If the piece is primarily structured as numbered items, use a more specific skill instead:
+- **Numbered tips** → `tips` skill
+- **Common mistakes** → `mistakes` skill
+- **Reasons for/against** → `reasons-why` skill
+- **Myth-busting** → `contrarian` skill
+- **Sequential steps** → `how-to-guide` skill
+- **Numbered resources/tools/items** → `listicle` skill
 
-Pick one primary structure. You can mix — a "5 Mistakes" piece might include a personal story in one section. But the spine should be clear.
+This skill is for pieces that don't fit neatly into a numbered format — essays, arguments, frameworks, analysis, and position pieces where the structure follows the argument, not a count.
+
+## Body Structure
+
+Organize the body around 3-5 sections that build your argument. Each section should advance the reader's understanding — not just list more points.
+
+Common structures for opinion pieces:
+- **Problem → Reframe → Solution** — show why the common framing is wrong, then offer a better one
+- **Observation → Implication → Action** — notice something, explain what it means, tell them what to do
+- **Thesis → Evidence → Evidence → Evidence → Conclusion** — make your claim, stack proof
+- **Before/After** — show what the world looked like before an insight, and after
+
+The key: every section earns the next one. The reader should feel pulled through the argument, not just reading a list.
 
 ## Voice and Stance
 

@@ -34,6 +34,16 @@ Before the steps, earn the reader's attention. The hook section (100-200 words) 
 
 If there are prerequisites (tools, accounts, prior knowledge), list them clearly before Step 1. Don't let the reader get to Step 4 before discovering they needed something from the start.
 
+## Why The Current Approach Fails (Optional)
+
+If the reader has likely tried and failed at this before, add a brief section (3-6 sentences) between the hook and Step 1 that explains:
+
+- What the common approach is and why it seems logical
+- Where it breaks down — the specific flaw
+- What a better approach looks like (preview of your method)
+
+This earns trust by showing you understand why they're stuck — not just what to do next. Skip this section if the topic is truly novel and the reader hasn't attempted it before.
+
 ## The Step Framework
 
 Each step follows a strict three-part structure:
@@ -81,6 +91,17 @@ If something commonly goes wrong at this step, add a brief troubleshooting note:
 - **One action per step.** If a step has "and" in it, it's probably two steps. Split it.
 - **Show, don't just tell.** Include examples of what the output looks like — sample text, screenshots descriptions, code blocks, whatever makes the result tangible.
 - **No fabrication.** Don't invent tool features, UI elements, or workflows that don't exist. If you're unsure about a specific detail, flag it with [VERIFY: description of what to check].
+
+## When Things Go Wrong (Optional)
+
+If the process has a common failure point, add a brief section before the wrap-up:
+
+- Name the most common roadblock people hit
+- Explain why it happens (usually a missed step or a misunderstanding)
+- Give clear recovery steps that tie back to the core method
+- Reframe the challenge as a signal of progress, not failure
+
+Keep this to 3-5 sentences. Not every how-to needs this — only include it when there's a genuinely common failure mode worth addressing.
 
 ## The Wrap-Up
 

@@ -1,15 +1,21 @@
 # Substack
 
-Substack newsletters and Notes — thought leadership, how-to guides, case studies, launch announcements, and Substack Notes.
+Substack newsletters and Notes — 13 skills covering every major newsletter format, from opinion pieces and how-to guides to listicles, myth-busting, and weekly curation roundups.
 
 ## Skills
 
 | Skill | What it does |
 |-------|-------------|
-| thought-leadership | Opinionated essays that establish authority and drive conversation |
-| how-to-guide | Step-by-step tutorials with actionable takeaways |
+| thought-leadership | Opinion pieces with a strong position — essays, arguments, and frameworks that change how readers think |
+| how-to-guide | Step-by-step tutorials where every step includes context, instruction, and expected result |
 | story-lesson | Narrative-driven posts that teach through personal experience |
 | case-study | Results-focused breakdowns of real work and outcomes |
+| listicle | Numbered-list newsletters where each item delivers standalone value |
+| tips | Tactical tips that are contrarian, specific, and immediately actionable |
+| mistakes | Common mistakes format — name the error, show the hidden cost, give the fix |
+| reasons-why | Persuasive "reasons why" pieces that build a case with evidence |
+| contrarian | Myth-busting and contrarian takes — challenge popular beliefs with better alternatives |
+| curation | Weekly roundup newsletters — curated resources, favorite tip, and industry news with your take |
 | launch-announcement | Product or feature launch posts that drive action |
 | welcome-sequence | Onboarding emails for new subscribers |
 | substack-note | Short-form Substack Notes for engagement and visibility |
