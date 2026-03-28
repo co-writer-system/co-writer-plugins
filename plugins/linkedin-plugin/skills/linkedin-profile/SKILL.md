@@ -56,19 +56,67 @@ Deliver the complete profile rewrite in this structure:
 
 ### 3.2 About Section (2,600 characters max)
 
-Structure it in this order:
+Choose ONE of these 7 frameworks based on what fits the user's story, voice, and goals. Present the recommended framework and explain why it fits — but offer alternatives if the user wants a different angle.
 
-**Opening hook (2-3 lines)** — Lead with the reader's problem or aspiration. NOT "I am a passionate..." Start with "you" language or a bold statement that makes your ICP think "this person gets me."
+**Framework 1: Problem-Agitation-Solution (PAS)**
+Best for: Clear service providers who solve a specific, painful problem.
+- **Open with the problem** your ICP faces (2-3 lines, "you" language)
+- **Agitate** — why it's worse than they think, what it's costing them (2-3 lines)
+- **Solution** — what you do and how you solve it (2-3 lines)
+- **Proof** — concrete results, numbers, credentials (2-4 lines)
+- **CTA** — what to do next (1-2 lines)
 
-**The bridge (2-3 lines)** — What you do and how you solve that problem. Specific, concrete, no buzzwords.
+**Framework 2: Achievement-Realisation-Results**
+Best for: People with impressive numbers or track records who want to lead with proof.
+- **Open with your biggest achievement** — specific number, outcome, or milestone (1-2 lines)
+- **The realisation** — what you learned getting there that others don't know (2-3 lines)
+- **What you do now** — how you apply that insight for others (2-3 lines)
+- **Results for others** — client outcomes, testimonials, evidence (2-4 lines)
+- **CTA** (1-2 lines)
 
-**Proof (2-4 lines)** — Concrete results, numbers, credentials. Not adjectives — evidence. Revenue generated, audience built, clients served, years in the trenches, specific outcomes.
+**Framework 3: Story-Driven**
+Best for: Founders, career changers, or anyone with a compelling origin story.
+- **Drop into a moment** — a specific scene or turning point (2-3 lines)
+- **The journey** — what happened, what changed, what you built (3-5 lines)
+- **Where you are now** — what you do and who you help (2-3 lines)
+- **What you're known for** (bullet list, 3-5 items)
+- **CTA** (1-2 lines)
 
-**What you're known for (bullet list, 3-5 items)** — Quick-scan list of your core topics/expertise. These also serve as keywords for LinkedIn search.
+**Framework 4: Contrarian**
+Best for: Thought leaders with a strong point of view that challenges their industry.
+- **Bold opening statement** — challenge conventional wisdom in your space (1-2 lines)
+- **Why the common approach is wrong** — back it up with logic or experience (2-3 lines)
+- **What you do differently** — your approach and why it works (2-3 lines)
+- **Proof it works** — results, outcomes, evidence (2-4 lines)
+- **CTA** (1-2 lines)
 
-**CTA (1-2 lines)** — What should the reader do next? Follow for [topic] content. Subscribe to [newsletter]. Visit [link]. Be specific.
+**Framework 5: WHO → WHAT → HOW**
+Best for: Consultants, coaches, and service providers — clean and scannable.
+- **WHO you help** — specific audience, named clearly (1-2 lines)
+- **WHAT you help them achieve** — the outcome or transformation (2-3 lines)
+- **HOW you do it** — your method, system, or approach (2-3 lines)
+- **Proof** — numbers, credentials, client results (2-4 lines)
+- **CTA** (1-2 lines)
 
-Writing rules for the About section:
+**Framework 6: Future Pacing**
+Best for: Visionaries, futurists, or people selling aspirational outcomes.
+- **Paint the future** — what life/business looks like after working with you or following your advice (2-3 lines)
+- **The gap** — why most people aren't there yet (2-3 lines)
+- **The bridge** — what you do to close that gap (2-3 lines)
+- **Evidence** — who you've already helped get there (2-4 lines)
+- **CTA** (1-2 lines)
+
+**Framework 7: Authority-First**
+Best for: Established experts with strong credentials, media, or institutional proof.
+- **Credentials up front** — publications, companies, results, years of experience (2-3 lines)
+- **What that experience taught you** — the insight others don't have (2-3 lines)
+- **What you do now** — how you apply it (2-3 lines)
+- **What you're known for** (bullet list, 3-5 items)
+- **CTA** (1-2 lines)
+
+**How to choose:** If the user has strong numbers → Framework 2 or 7. Compelling origin story → Framework 3. Clear service/ICP → Framework 1 or 5. Strong opinions → Framework 4. Aspirational outcomes → Framework 6. When in doubt, default to Framework 5 (WHO → WHAT → HOW) — it's the most universally effective.
+
+Writing rules for the About section (apply to ALL frameworks):
 - Short paragraphs (1-2 sentences)
 - Line breaks between every paragraph
 - Write in first person

@@ -168,6 +168,16 @@ First comment: [Hashtags, links, or additional context]
 | Before/After | "[Time period] ago, I [old state]. Today, I [new state]. Here's what changed:" |
 | Question hook | "Why do most [people in field] [common behavior] when [better alternative] exists?" |
 | Data hook | "[Specific number/stat] — that's [what it represents]. Here's why it matters:" |
+| If/Then algorithm | "{X} 'if, then' rules for {topic}:" |
+| Brutal story | "The first {time period} of my {activity} were brutal. {Negative outcome 1}, {negative outcome 2}, {negative outcome 3}." |
+| Average person is wrong | "The average person thinks {common belief}. They're wrong:" |
+| Curated opinion | "The problem with {undesirable behavior} in your {area}: - {Negative consequence}" |
+| One habit, huge outcome | "The one habit that {huge outcome}: {Simple habit}. But most people waste years trying to {action}." |
+| Belief changer | "At {age/time}, I was: • {Negative 1} • {Negative 2} • {Negative 3}. But {simple action} changed everything:" |
+| The shortcut | "The shortcut to {outcome} isn't: • {Accepted practice 1} • {Accepted practice 2}. It's {simple practice}." |
+| Misconception reframe | "{Topic} isn't about {common misconception}. It's {unexpected truth}." |
+| Investment payoff | "I {invested X} to {learn/join/attend}. Here are {number} things I learned:" |
+| Ready to give up | "After {time} {doing X}, I had {negative result 1}, {negative result 2}, and I was ready to give up." |
 
 **Quality checks before delivering:**
 
@@ -216,6 +226,32 @@ Use these to guide what kind of post to write when the user doesn't have a speci
 - **Weekends:** Typically get 50-70% less reach
 
 This is for the user's reference when scheduling — do not include timing recommendations in the post output.
+
+## Reference: CTA Templates for First Comment
+
+These are proven CTA frameworks for the first comment on a LinkedIn post. Always adapt them using real data from CLAUDE.md — newsletter URL, subscriber count, expertise areas, achievements, etc. Never paste these as-is.
+
+**Important:** CTAs go in the FIRST COMMENT, never in the post body. LinkedIn throttles posts with outbound links.
+
+### The Classic
+
+"If you love ideas like this, you'll love my newsletter. Every [cadence], I share [2-3 words on topic]. Join [subscriber count] here: [URL]"
+
+### The Credibility
+
+"By the way, I have [credibility statement 1]. And [credibility statement 2]. Want to know more about [topic]? Subscribe to my newsletter: [URL]"
+
+### The Benefits
+
+"If you're looking to [outcome], then my newsletter is for you. I show you how to: • [Benefit 1] • [Benefit 2] • [Benefit 3]. Join [subscriber count] subscribers here: [URL]"
+
+### The Pivot
+
+"I love [point related to post]. And over the last [years] years, I've [credibility]. It's how I [outcome]. Subscribe for [cadence] updates on [topic]: [URL]"
+
+### The Proven Path
+
+"The quickest way to [outcome]: [Topic]. This is how I [achievement]. Every [cadence], I share [content type] on how to [outcome]. Join [subscriber count] subscribers here: [URL]"
 
 ## Rules
 
