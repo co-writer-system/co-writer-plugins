@@ -1,12 +1,13 @@
 # LinkedIn
 
-LinkedIn posts — professional content optimized for LinkedIn's format and algorithm.
+LinkedIn content — professional posts and profile optimization for LinkedIn's format and algorithm.
 
 ## Skills
 
 | Skill | What it does |
 |-------|-------------|
 | linkedin-post | Professional posts in proven LinkedIn formats — hooks, storytelling, listicles |
+| linkedin-profile | Rewrite your LinkedIn profile for conversion — headline, about, featured strategy, banner guidance, keywords |
 
 ## Connector
 

@@ -1,7 +1,7 @@
 {
   "name": "linkedin",
-  "version": "0.1.2",
-  "description": "LinkedIn posts — professional content optimized for LinkedIn's format and algorithm.",
+  "version": "0.2.0",
+  "description": "LinkedIn content — professional posts and profile optimization for LinkedIn's format and algorithm.",
   "author": {
     "name": "Alex McFarland",
     "url": "https://alexmcfarland.ai"
