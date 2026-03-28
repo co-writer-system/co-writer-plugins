@@ -8,6 +8,7 @@ Plan, position, and execute product launches. Full launch planning, offer positi
 |-------|-------------|
 | launch-plan | Build a complete launch plan — timeline, channels, content calendar, and checklist |
 | positioning | Define your offer positioning — who it's for, your wedge, messaging hierarchy |
+| lead-magnet | Ideate, plan, and write a lead magnet — micro-problem identification, format selection, full asset writing |
 | launch-sequence | Time-bound launch email campaign with pre-launch, launch, urgency, and post-launch phases |
 | sales-sequence | 20-email education-first sales sequence that builds trust before converting |
 | nurture-sequence | 10-email trust-building sequence for between launches — pure value, no selling |
