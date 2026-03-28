@@ -1,6 +1,6 @@
 ---
 name: linkedin-post
-description: Write professional LinkedIn posts optimized for the platform — hook-driven, short paragraphs, clear value, engagement-focused. Supports insight, story, list, and opinion formats.
+description: Write professional LinkedIn posts optimized for the platform — hook-driven, short paragraphs, clear value, algorithm-aware. Supports insight, story, list, opinion, and carousel formats.
 ---
 
 # LinkedIn Post Writer
@@ -12,6 +12,27 @@ You write LinkedIn posts that stop the scroll and deliver real value. Every post
 Read the CLAUDE.md file in the working directory if it exists. Do this silently — do not narrate that you're reading it. Use the context to inform your output.
 
 If a voice skill is installed, apply it. If not, pick up the user's natural voice from CLAUDE.md context.
+
+## Algorithm Signals
+
+What LinkedIn rewards (in rough order of weight):
+
+- **Dwell time** — How long people spend reading your post. Longer, substantive posts that hold attention get pushed further.
+- **Meaningful comments** — Comments of 5+ words signal real engagement. One thoughtful comment is worth more than ten "Great post!" replies.
+- **Saves/bookmarks** — Strong signal that the content has lasting value.
+- **Shares** — Reshares extend reach beyond your network.
+- **Reactions** — The least weighted signal. Easy to give, so LinkedIn values them least.
+- **Profile authority** — Consistent posting history + complete profile + relevant expertise = more distribution.
+
+What kills reach:
+
+- **External links in post body** — LinkedIn throttles posts with outbound links. Put links in the first comment instead.
+- **Editing within the first hour** — The algorithm re-evaluates the post and often reduces distribution.
+- **Posting more than once per day** — Your posts compete against each other. One strong post beats two mediocre ones.
+- **Engagement bait** — "Like if you agree" or "Comment YES for the free guide" gets flagged and suppressed.
+- **Tagging people who don't engage back** — If tagged people ignore the post, it signals low relevance.
+
+Use these signals to inform how you write — but never mention the algorithm in the post itself.
 
 ## Step 1: Gather the Input
 
@@ -26,6 +47,17 @@ If the user gives you enough context to proceed without asking, skip straight to
 Never ask for information that's already available in CLAUDE.md (name, background, expertise, links, etc.).
 
 ## Step 2: Choose the Format
+
+**Quick reference — format ranking by typical engagement:**
+
+| Format | Engagement Level |
+|--------|-----------------|
+| Carousel (PDF) | Highest |
+| Text + selfie photo | Very high |
+| Text-only (long) | High |
+| Polls | High |
+| Video (native, <90s) | Medium-high |
+| Posts with links | Lowest |
 
 ### Insight Post
 **When to use:** You have one sharp idea, observation, or lesson worth sharing.
@@ -70,6 +102,50 @@ Never ask for information that's already available in CLAUDE.md (name, backgroun
 
 **Best for:** Industry commentary, challenging best practices, reframing popular ideas.
 
+### Carousel Post
+**When to use:** You have a concept that benefits from visual, slide-by-slide breakdown — frameworks, step-by-step processes, before/after comparisons, or listicles with depth.
+
+**Structure:**
+- **Slide 1 (Cover)** — Bold title + subtitle + author name. This is the hook — it must stop the scroll on its own.
+- **Slides 2-8 (Content)** — One key point per slide. Large text, minimal words. Each slide should make sense on its own but build a sequence.
+- **Final slide (CTA)** — Clear next step: follow, comment, save, or check the first comment for a link.
+
+**Output format for carousels:**
+
+```
+CAROUSEL POST
+
+Caption: [The text that accompanies the carousel in the feed — treat this like a mini Insight or Story post with a hook]
+
+---
+
+Slide 1 (Cover):
+Title: [Bold headline]
+Subtitle: [Supporting line]
+Author: [Name]
+
+Slide 2:
+Headline: [Key point]
+Body: [1-2 sentences max]
+
+Slide 3:
+Headline: [Key point]
+Body: [1-2 sentences max]
+
+[...continue for each slide...]
+
+Final Slide:
+CTA: [What to do next]
+
+---
+
+First comment: [Hashtags, links, or additional context]
+```
+
+**Design notes for the user:** Each slide should work as a standalone visual. Use consistent styling across slides. Keep text large enough to read on mobile. 6-10 slides is the sweet spot.
+
+**Best for:** Frameworks, tutorials, process breakdowns, data summaries, myth-busting series, tip compilations.
+
 ## Step 3: Write the Post
 
 **Platform rules — follow these for every format:**
@@ -77,9 +153,21 @@ Never ask for information that's already available in CLAUDE.md (name, backgroun
 - **Hook above the fold.** The first 1-2 lines must work alone. On LinkedIn, everything after ~210 characters is hidden behind "see more." The hook decides if anyone reads the rest.
 - **Short paragraphs.** 1-2 sentences max per paragraph. LinkedIn is read on mobile. Dense blocks of text get scrolled past.
 - **White space is structure.** Use line breaks between every paragraph. Let the post breathe.
-- **No hashtags in the body.** If including hashtags at all, put 3-5 relevant ones at the very end, separated from the post content.
+- **No hashtags in the body.** If including hashtags at all, put 3-5 relevant ones in the first comment.
 - **No emoji spam.** One or two max if they genuinely add something. Most posts are better without them.
+- **Never put external links in the post body.** LinkedIn throttles reach on posts with outbound links. Always put links in the first comment instead.
 - **Write like a person.** Not a brand. Not a thought leader performing thoughtfulness. A person who has something real to say.
+
+**Hook formula templates — use as starting points, not fill-in-the-blanks:**
+
+| Formula | Template |
+|---------|----------|
+| Bold claim | "[Specific thing] is the most underrated skill in [field]." |
+| Unexpected story | "I [unexpected action] and [surprising result]." |
+| List preview | "[Number] [things] I [did/learned/stopped doing] that [specific outcome]:" |
+| Before/After | "[Time period] ago, I [old state]. Today, I [new state]. Here's what changed:" |
+| Question hook | "Why do most [people in field] [common behavior] when [better alternative] exists?" |
+| Data hook | "[Specific number/stat] — that's [what it represents]. Here's why it matters:" |
 
 **Quality checks before delivering:**
 
@@ -95,7 +183,39 @@ Produce 2 variations of the post:
 - **Variation A** — Tighter, more direct
 - **Variation B** — Slightly more expansive, more context
 
+For each variation, include:
+
+```
+POST:
+[The full post text]
+
+FIRST COMMENT:
+[Hashtags, links, or additional context to post as the first comment immediately after publishing]
+```
+
 Present both and let the user pick, combine, or refine.
+
+## Reference: Content Pillars
+
+Use these to guide what kind of post to write when the user doesn't have a specific format in mind:
+
+| Pillar | Purpose | Example |
+|--------|---------|---------|
+| **Authority** | Establish expertise | Frameworks, case studies, detailed breakdowns |
+| **Relatability** | Build connection | Behind-the-scenes, struggles, honest takes |
+| **Utility** | Provide value | How-tos, templates, tactical tips |
+| **Opinion** | Spark discussion | Contrarian takes, industry commentary |
+| **Social proof** | Build trust | Results, testimonials, milestones |
+
+**Suggested mix:** 40% Utility, 25% Authority, 20% Relatability, 10% Opinion, 5% Social proof.
+
+## Reference: Posting Timing
+
+- **Best days:** Tuesday through Thursday
+- **Best windows:** 7:30-8:30am or 12:00-1:00pm in your audience's timezone
+- **Weekends:** Typically get 50-70% less reach
+
+This is for the user's reference when scheduling — do not include timing recommendations in the post output.
 
 ## Rules
 
