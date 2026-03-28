@@ -23,17 +23,12 @@
     {
       "name": "substack",
       "source": "./plugins/substack-plugin",
-      "description": "Substack newsletters and Notes — thought leadership, how-to guides, case studies, launch announcements"
+      "description": "Substack newsletters and Notes — 13 skills covering opinion pieces, how-to guides, listicles, tips, mistakes, contrarian takes, curation, and more"
     },
     {
       "name": "linkedin",
       "source": "./plugins/linkedin-plugin",
-      "description": "LinkedIn posts — professional content optimized for LinkedIn's format"
-    },
-    {
-      "name": "kit",
-      "source": "./plugins/kit-plugin",
-      "description": "Kit (ConvertKit) email sequences — sales campaigns, launch sequences, and nurture series"
+      "description": "LinkedIn content — post writing, profile optimization, content ideation, and 30-day calendar planning"
     },
     {
       "name": "blog",
@@ -43,7 +38,7 @@
     {
       "name": "landing-page",
       "source": "./plugins/landing-page-plugin",
-      "description": "Landing page copy — sales pages, product pages, and opt-in pages"
+      "description": "Landing page copy — sales pages, product pages, opt-in pages, and full page builds"
     },
     {
       "name": "podcast",
@@ -54,6 +49,21 @@
       "name": "course",
       "source": "./plugins/course-plugin",
       "description": "Course creation — lesson scripts, module outlines, and assignments"
+    },
+    {
+      "name": "launch",
+      "source": "./plugins/launch-plugin",
+      "description": "Launch planning — lead magnets, positioning, email sequences for sales, launches, and nurture campaigns"
+    },
+    {
+      "name": "ebook",
+      "source": "./plugins/ebook-plugin",
+      "description": "Ebook creation — write, compile, and publish ebooks with EPUB output"
+    },
+    {
+      "name": "research",
+      "source": "./plugins/research-plugin",
+      "description": "Deep research — competitive analysis, audience research, trend analysis, and citation-backed reports"
     }
   ]
 }
