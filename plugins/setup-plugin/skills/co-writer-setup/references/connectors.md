@@ -122,6 +122,25 @@ That's it. Once connected, Claude can read and write to that service directly.
   - **Connector:** Co-Writer platform (app.alexmcfarland.ai/connectors)
   ```
 
+### Discord
+
+- **What it does:** Manage channels, send/read/delete messages, threads, pins, list members
+- **API key type:** Compound credential — Discord bot token + Server (Guild) ID
+- **Setup steps:**
+  1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
+  2. Create a new application → go to Bot → Reset Token → copy the bot token
+  3. Enable **Server Members Intent** and **Message Content Intent** under Privileged Gateway Intents
+  4. Go to OAuth2 → URL Generator → select `bot` scope → select permissions (Manage Channels, Send Messages, Read Message History, Manage Messages, Manage Threads)
+  5. Copy the generated URL → open it → select your server → Authorize
+  6. Get your Server ID: in Discord, Settings → Advanced → enable Developer Mode, then right-click your server name → Copy Server ID
+  7. Enter bot token and guild ID on the Connectors page
+- **What to add to CLAUDE.md:**
+  ```
+  **Discord** — Community management
+  - **Server:** [server name]
+  - **Connector:** Co-Writer platform (app.alexmcfarland.ai/connectors)
+  ```
+
 ---
 
 ## Cowork Official Connectors

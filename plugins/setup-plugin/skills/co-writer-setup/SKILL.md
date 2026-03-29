@@ -222,6 +222,8 @@ Here's what's available through the Co-Writer System platform:
 | Kit        | Broadcasts, sequences, subscribers, tags          |
 | Zulip      | Messaging, channels, topics                       |
 | Perplexity | Web search, deep research, citations              |
+| Firecrawl  | Web scraping, site crawling, structured data      |
+| Discord    | Channels, messages, threads, pins, members        |
 
 To set these up: go to app.alexmcfarland.ai/connectors, enter your API key for the service, then copy the connector URL. In Cowork, go to Connectors → Add custom connector → paste the URL. It'll prompt you to sign in through the platform to verify.
 
