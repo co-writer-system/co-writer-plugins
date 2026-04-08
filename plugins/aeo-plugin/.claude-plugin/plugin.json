@@ -1,6 +1,6 @@
 {
   "name": "aeo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Answer Engine Optimization skills — get your content cited by AI answer engines (Perplexity, ChatGPT, Google AI Overviews, Claude). Question discovery, content optimization, structured data, and auditing.",
   "author": {
     "name": "Alex McFarland",
