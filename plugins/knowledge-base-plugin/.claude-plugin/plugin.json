@@ -1,0 +1,9 @@
+{
+  "name": "knowledge-base",
+  "version": "1.0.0",
+  "description": "Turn your published content into a living knowledge base. Archive content, build topic pages, track how your thinking evolves, and audit for gaps.",
+  "author": {
+    "name": "Alex McFarland",
+    "url": "https://alexmcfarland.ai"
+  }
+}

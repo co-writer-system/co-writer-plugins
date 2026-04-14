@@ -69,6 +69,11 @@
       "name": "aeo",
       "source": "./plugins/aeo-plugin",
       "description": "Answer Engine Optimization — get your content cited by AI answer engines. Question discovery, content optimization, auditing, and structured data."
+    },
+    {
+      "name": "knowledge-base",
+      "source": "./plugins/knowledge-base-plugin",
+      "description": "Turn your published content into a living knowledge base. Archive content, build topic pages, track how your thinking evolves, and audit for gaps."
     }
   ]
 }
